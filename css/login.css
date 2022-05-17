@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    min-width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.login-wallpaper {
+    position: absolute;
+    min-width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.content {
+    position: absolute;
+    top: 0%;
+    width: 650px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(44, 44, 44);
+}
+
+.titles-content {
+    position: absolute;
+    top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.5rem;
+    color: rgb(207, 207, 207);
+}
+
+.title-2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    color: rgb(107, 15, 15);
+}
+
+.input-flex {
+    width: 400px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(207, 207, 207);
+    font-size: 1.2rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-bottom: 5%;
+}
+
+.input-flex-2 {
+    margin-bottom: 8%;
+}
+
+form input {
+    width: 100%;
+    height: 3.5vh;
+    background-color: rgb(44, 44, 44);
+    border: 0;
+    border-bottom: 1px solid aliceblue;
+    outline-style: none;
+    color: rgb(218, 218, 218);
+    font-size: 1rem;
+}
+
+.remember-user-forgot-psw {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(218, 218, 218);
+}
+
+.remember-user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+}
+
+.remember-user input {
+    width: 18px;
+    height: 18px;
+    margin-right: 7px;
+}
+
+.forgot-psw {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    background-color: rgb(42, 42, 42);
+    color: rgb(23, 101, 170);
+}
+
+.to-login {
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(41, 41, 41);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    background-color: rgb(168, 168, 168);
+} 
+
+.to-login a{
+    font-size: 1.3rem;
+    color: rgb(23, 101, 170);
+}
+
+form button {
+    position: absolute;
+    bottom: 10vh;
+    left: 0%;
+    width: 100%;
+    height: 10vh;
+    border: 0;
+    outline-style: none;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    background-color: rgb(32, 32, 32);
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+form button:hover {
+    background-color: rgb(17, 17, 17);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer {
+    position: absolute;
+    bottom: -30%;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    font-size: 1.2rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: aliceblue;
+}
+
+.footer span:nth-child(1){
+    font-size: 2.1rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer span:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.footer span:nth-child(3){
+    position: absolute;
+    bottom: 5%;
+    font-size: 0.9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr {
+    width: 80%;
+}

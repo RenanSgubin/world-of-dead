@@ -1,0 +1,57 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+.container-search-players {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(48, 48, 48);
+}
+
+.content-search-players {
+    width: 1200px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.2rem;
+}
+
+.input-w-button {
+    position: relative;
+    width: 45%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.search-player-input {
+    width: 100%;
+    height: 4vh;
+    border: 0;
+    outline-style: none;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.button-search-players {
+    position: absolute;
+    right: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 0;
+    cursor: pointer;
+}

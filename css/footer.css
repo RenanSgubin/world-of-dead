@@ -1,0 +1,40 @@
+
+/*Footer*/
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    font-size: 1.2rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: aliceblue;
+}
+
+.footer span:nth-child(1){
+    font-size: 2.1rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer span:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.footer span:nth-child(3){
+    position: absolute;
+    bottom: 5%;
+    font-size: 0.9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr {
+    width: 80%;
+}

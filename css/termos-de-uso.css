@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+}
+
+.detail-1 {
+    position: absolute;
+    right: 85%;
+    width: 20%;
+    height: 6vh;
+    background: linear-gradient(45deg, transparent 5%, rgb(31, 30, 31) 5%);
+}
+
+.user-terms-title {
+    position: relative;
+    width: 70%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 30, 31);
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(218, 219, 219);
+    margin-top: 130px;
+    font-size: 1.3rem;
+}
+
+.detail-2 {
+    position: absolute;
+    left: 85%;
+    width: 20%;
+    height: 6vh;
+    background: linear-gradient(-45deg, transparent 5%, rgb(31, 30, 31) 5%);
+}
+
+.user-terms {
+    width: 70%;
+    height: auto;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: rgb(196, 197, 197);
+    background-color: rgb(32, 32, 32);
+    padding: 15px;
+}

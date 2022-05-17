@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../img/wallpapersden.com_dying-light-vs-zombies_1920x1080.jpg");
+}
+
+.register-content {
+    position: relative;
+    width: 1200px;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+    margin-top: 8vh;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.register-title {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    background-color: rgb(53, 53, 53);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    border-top-left-radius: 10px;
+}
+
+.infos-user {
+    position: absolute;
+    left: 0%;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 30, 31);
+    border-top-left-radius: 10px;
+}
+
+.infos-user i {
+    transform: scale(3,3);
+    color: rgb(218, 219, 219);
+}
+
+form {
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: rgb(218, 218, 218);
+}
+
+form span {
+    width: 40%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 3%;
+}
+
+form input {
+    width: 100%;
+    height: 3.5vh;
+    background-color: rgb(44, 44, 44);
+    border: 0;
+    border-bottom: 1px solid aliceblue;
+    outline-style: none;
+    color: rgb(218, 218, 218);
+    font-size: 1rem;
+}
+
+form input:focus {
+    border-bottom: 2px solid rgb(104, 22, 22);
+}
+
+form button {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    width: 20%;
+    height: 6vh;
+    border: 0;
+    outline-style: none;
+    border-radius: 3px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.1rem;
+    background: linear-gradient(45deg, transparent 5%, rgb(32, 32, 32) 5%);
+    color: rgb(207, 207, 207);
+    cursor: pointer;
+    transition: 1s all;
+}
+
+form button:hover {
+    background: linear-gradient(45deg, transparent 5%, rgb(17, 17, 17) 5%);
+}
+
+.user-terms-content {
+    position: fixed;
+    bottom: 6%;
+    left: 20%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-terms-content span {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+}
+
+.user-terms-content a {
+    color: rgb(23, 101, 170);
+}
+
+.user-terms {
+    width: 18px;
+    height: 18px;
+}
+
+.login {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    top: 55vh;
+    width: 28%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, transparent 5%, rgb(42, 42, 42) 5%);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.2rem;
+    border-bottom-left-radius: 10px;
+    color: rgb(207, 207, 207);
+}
+
+.login a {
+    color: rgb(23, 101, 170);
+}
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.footer {
+    position: absolute;
+    bottom: -40%;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(42, 42, 42);
+    font-size: 1.2rem;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    color: aliceblue;
+}
+
+.footer span:nth-child(1){
+    font-size: 2.1rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.footer span:nth-child(2){
+    font-size: 0.9rem;
+}
+
+.footer span:nth-child(3){
+    position: absolute;
+    bottom: 5%;
+    font-size: 0.9rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+hr {
+    width: 80%;
+}
